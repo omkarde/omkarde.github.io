@@ -1,0 +1,191 @@
+body{
+	background-color:black;
+	margin:0px;
+	margin-right:7px;
+}
+
+
+/*Page title -- "HOME"*/
+h2{
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	border-bottom: 3px solid green;
+	margin-left:22%;
+	padding-left:40px;
+}
+
+
+/*Subtitle under logo*/
+ul p{
+	color:black;
+	padding:0px;
+	font-size:15px;
+	margin:0px;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+
+/*header attributes like address, phone number*/
+h4 {
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	text-align:right;
+	font-size:10px;
+	padding-right: 30px;
+}
+
+
+/*Logo Formatting*/
+ul img{
+	margin:0px;
+	padding:0px;
+	padding-left:25px;
+	width:260px;
+	height:260px;
+	background-color:#f1f1f1;
+	justify-content:center;
+}
+
+
+/*Nav bar formatting 1*/
+li a{
+	display: block;
+	border-bottom: 1px solid #555;
+	color: black;
+    text-align: center;
+    padding: 14px 16px;
+	text-decoration:none;
+	font-size:15px;
+	font-weight: block;
+}
+
+
+/*Nav bar formatting 2*/
+ul{
+	list-style-type: none;
+	border: 1px solid #555;
+    margin: 0px;
+    padding: 0px;
+    width: 23%;
+    background-color: #f1f1f1;
+	position:fixed;
+	height:100%;
+	overflow:auto;	
+}
+
+
+/*Submenu 1*/
+ul .sub1{
+	position:relative;
+	display:none;
+	list-style-type: none;
+	border: 1px solid #555;
+    margin: 0px;
+	margin-left:100px;
+    padding: 0px;
+    width: 20%;
+    background-color: #f1f1f1;
+	position:fixed;
+	height:30%;
+	overflow:auto;
+}
+
+/*Submenu 2*/
+ul .sub2{
+	position:relative;
+	display:none;
+	list-style-type: none;
+	border: 1px solid #555;
+    margin: 0px;
+	margin-left:100px;
+    padding: 0px;
+    width: 20%;
+    background-color: #f1f1f1;
+	position:fixed;
+	height:30%;
+	overflow:auto;
+}
+
+
+li a:first-child{	
+	border-top: 1px solid #555;
+}
+
+
+li:last-child a{
+	padding-bottom:10px;
+}
+
+
+/*show submenu 1 when cursor is hovered on it*/
+li:hover .sub1 {
+    display: block;
+}
+
+/*show submenu 2 when cursor is hovered on it*/
+li:hover .sub2 {
+    display: block;
+}
+
+/*change the colour of nav bar menu 
+when cursor hovered over it*/
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+/*highlight the active menu*/
+.active{
+	background-color:green;
+}
+
+/*image in the main content*/
+img{
+	float:left;
+	padding-right: 35px;
+	padding-bottom: 5px;
+	text-align:justify;
+	margin-left:22%;
+	padding-left:40px;
+}
+
+
+/*Main text content on the page*/
+p{
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	letter-spacing:0.5px;
+	font-weight: 500;
+	margin-left:22%;
+	padding-left:40px;
+	padding-right:30px;
+	text-align:justify;
+}	
+
+table{
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	width: 80%;
+	margin-left:22%;
+	padding-left:40px;
+	padding-right:60px;
+	text-align:justify;
+}
+
+table th{
+	text-align: center;
+}
+
+td, th {
+  border: 1px solid green;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: green;
+  color: black;
+  font-weight: 500;
+}

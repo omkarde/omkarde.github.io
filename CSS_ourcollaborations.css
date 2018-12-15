@@ -1,0 +1,177 @@
+body{
+	background-color:black;
+	margin:0px;
+	margin-right:7px;
+}
+
+
+/*Page title*/
+h2{
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	border-bottom: 3px solid green;
+	margin-left:22%;
+	padding-left:40px;
+}	
+
+
+/*Logo Image*/
+ul img{
+	margin:0px;
+	padding:0px;
+	padding-left:25px;
+	width:260px;
+	height:260px;
+	background-color:#f1f1f1;
+	justify-content:center;
+}
+
+
+/*Subtitle under logo*/
+.sub1 p{
+	color:black;
+	padding:0px;
+	font-size:15px;
+	margin:0px;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+
+/*header attributes like address, phone number*/
+h4 {
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	text-align:right;
+	font-size:10px;
+	padding-right: 30px;
+}
+
+
+/*Nav bar formatting 1*/
+li a{
+	display: block;
+	border-bottom: 1px solid #555;
+	color: black;
+    text-align: center;
+    padding: 14px 16px;
+	text-decoration:none;
+	font-size:15px;
+	font-weight: block;
+}
+
+
+/*Nav bar formatting 2*/
+.sub1{
+	list-style-type: none;
+	border: 1px solid #555;
+    margin: 0px;
+    padding: 0px;
+    width: 23%;
+    background-color: #f1f1f1;
+	position:fixed;
+	height:100%;
+	overflow:auto;	
+}
+
+
+/*Submenu1*/
+.sub1 ul{
+	position:relative;
+	display:none;
+	list-style-type: none;
+	border: 1px solid #555;
+    margin: 0px;
+	margin-left:100px;
+    padding: 0px;
+    width: 20%;
+    background-color: #f1f1f1;
+	position:fixed;
+	height:30%;
+	overflow:auto;
+}
+
+
+/*Submenu 2*/
+.sub1 .sub2{
+	position:relative;
+	display:none;
+	list-style-type: none;
+	border: 1px solid #555;
+    margin: 0px;
+	margin-left:100px;
+    padding: 0px;
+    width: 20%;
+    background-color: #f1f1f1;
+	position:fixed;
+	height:30%;
+	overflow:auto;
+}
+
+/*change the colour of nav bar menu 
+when cursor hovered over it*/
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+li a:first-child{	
+	border-top: 1px solid #555;
+}
+
+
+li:last-child a{
+	padding-bottom:10px;
+}
+
+/*show submenu 1 when cursor is hovered on it*/
+li:hover ul {
+    display: block;
+}
+
+/*show submenu 2 when cursor is hovered on it*/
+li:hover .sub2 {
+    display: block;
+}
+
+
+/*highlight the active menu*/
+.active{
+	background-color:green;
+}
+
+/*Page main image*/
+img{
+	float:left;
+	padding-right: 35px;
+	padding-bottom: 5px;
+	text-align:justify;
+	margin-left:22%;
+	padding-left:40px;
+}
+
+/*Content in main page above the list*/
+p {
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	text-align:justify;
+	font-weight: 500;
+	padding-right: 30px;
+}
+
+
+/*Formatting main content*/
+.main_content{
+	list-style-type:green; 
+	display: block;
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	letter-spacing:0.5px;
+	font-weight: 500;
+	margin-left:22%;
+	padding-left:60px;
+	padding-right:30px;
+	padding-top: 20px;
+	text-align:justify;
+}
